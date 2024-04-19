@@ -181,6 +181,7 @@ python3 whisper.py ../datasets/aishell_S0764/ --model base --bmodel_dir ../model
 ```
 
 whisper和qwen联合
+```bash
 python3 whisper2qwen.py ../datasets/test/demo.wav --model medium --bmodel_dir ../models/BM1684X --dev_id 0  --output_dir ./result/ --output_format txt --qbmodel ../models/BM1684X/qwen-7b_int4_1dev.bmodel --qtoken token_config --qdev_id 0
-
+```
 
